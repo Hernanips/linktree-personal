@@ -127,10 +127,10 @@ function MenuItem({
 
 export default function FlowingMenu({ items, animated = true }: FlowingMenuProps) {
   return (
-    <nav className="flex flex-1 min-h-0 flex-col">
-    {items.map((item, idx) => (
-      <MenuItem key={item.text} {...item} animated={animated} isFirst={idx === 0} />
-    ))}
-  </nav>
+    <nav className="h-full flex flex-1 min-h-0 flex-col">
+      {items.map((item, idx) => (
+        <MenuItem key={item.text} {...item} animated={animated} isFirst={idx === 0} />
+      ))}
+    </nav>
   );
 }

@@ -57,7 +57,7 @@ function LinksSection({ links, className }: LinksSectionProps) {
   }));
 
   return (
-    <div className={`flex-1 min-h-0 overflow-hidden ${className ?? ""}`}>
+    <div className={`flex-1 min-h-0 h-full overflow-hidden ${className ?? ""}`}>
       <FlowingMenu items={items} animated={animatedMenu} />
     </div>
   );
