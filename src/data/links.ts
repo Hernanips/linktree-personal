@@ -4,12 +4,16 @@ export const LINKS = [
     href: "https://www.linkedin.com/in/victorhernani",
   },
   {
-    label: "YouTube",
-    href: "https://www.youtube.com/@Hernanips_",
+    label: "Fiverr",
+    href: "https://es.fiverr.com/s/7YbjLlE",
   },
   {
     label: "GitHub",
     href: "https://github.com/Hernanips",
+  },
+  {
+    label: "YouTube",
+    href: "https://www.youtube.com/@Hernanips_",
   },
   {
     label: "ArtStation",
